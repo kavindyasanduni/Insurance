@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/ab.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+nav{
+    position: absolute;
+    width: 90%;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+}
+nav ul li a.active{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+}
+.logo
+{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+    max-width:  1200px;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+h2
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 275px;
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+.btn-one
+{
+    background-color: rgba(26, 100, 20, 0.885);
+    font-family:" Roboto",sans-serif;
+}
+.btn-two
+{
+    font-family: "Roboto",sans-serif;
+}
+.btn-two:hover
+{
+    background-color: darkgreen;
+    transition: all 0.5s ease-in;
+}
+
+
+
+
